@@ -1,0 +1,135 @@
+body{
+    background-color: white;
+}
+.navbar {
+    overflow: hidden;
+    background-color:red;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 25px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #head{
+    background-color: black;
+  }
+  h2{
+    color:white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h1{
+    color:black;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  
+  .logo{
+    margin-left: 650px;
+  }
+  .head{
+    padding: 40px;
+  
+  }
+/*Product card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height:200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 40px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .product-grid{
+    display:inline-flex;
+
+  }
+  .img{
+    width:200px;
+    height:300px;
+  }
+  .card::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .search-icon{
+
+    float: right;
+  }
+  .checked {
+    color: orange;
+  }
